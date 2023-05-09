@@ -1,7 +1,6 @@
 import { StatisticS, Statistic } from "./Statistics.styled";
 
 export const StatisticsFeedback = ({ statistic }) => {
-console.log(statistic[0], statistic[1]);
    const stat=statistic[0];
    const good = stat[0];
    const neutral = stat[1];
